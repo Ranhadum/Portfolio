@@ -8,38 +8,60 @@
 
         <title>Portfolio Michał Szczepniak</title>
         <link rel="shortcut icon" href="favicon%20(4).ico" />
-        <!-- Bootstrap CSS-->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+       
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- Custom CSS -->
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- CSS -->
         <link href="css/scroll.css" rel="stylesheet">
 
 
     </head>
 
     <body id="scn1" data-spy="scroll" data-target=".navbar-fixed-top">
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbarcollapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#scn1">O mnie</a>
+                    <a class="navbar-brand page-scroll" href="#scn1">Główna</a>
                 </div>
                 <div class="collapse navbar-collapse navbarcollapse">
                     <ul class="nav navbar-nav">
-                        <li class="hidden"><a class="page-scroll" href="#scn1"></a></li>
-                        <li><a class="page-scroll" href="#scn2">Zainteresowania</a></li>
-                        <li><a class="page-scroll" href="#scn3">Umiejętności</a></li>
-                        <li><a class="page-scroll" href="#scn4">Doświadczenie</a></li>
-                        <li><a class="page-scroll" href="#scn5">Linki, dokumenty</a></li>
+                        <li class="active">
+                            <a href="#scn1" class="page-scroll hidden-xs">O mnie</a>
+                            <a href="#scn1" class="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">O mnie</a>
+                        </li>
+                        <li>
+                            <a href="#scn2" class="page-scroll hidden-xs">Zainteresowania</a>
+                            <a href="#scn2" class="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Zainteresowania</a>
+                        </li>
+                        <li>
+                            <a href="#scn3" class="page-scroll hidden-xs">Umiejętności</a>
+                            <a href="#scn3" class="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Umiejętności</a>
+                        </li>
+                        <li>
+                            <a href="#scn4" class="page-scroll hidden-xs">Doświadczenie</a>
+                            <a href="#scn4" class="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Doświadczenie</a>
+                        </li>
+                        <li>
+                            <a href="#scn5" class="page-scroll hidden-xs">Liniki i dokumenty</a>
+                            <a href="#scn5" class="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Liniki i dokumenty</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </nav>
+        </div>
         <section id="scn1" class="home-section">
             <div class="container-fluid">
                 <div class="row">
@@ -85,6 +107,7 @@
                 </div>
             </div>
         </section>
+       
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
         <!-- Bootstrap JavaScript -->
