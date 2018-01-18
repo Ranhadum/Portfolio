@@ -30,7 +30,7 @@ html {
 }
 
 .navbar-brand {
-    font-size: 20px;   
+    font-size: 20px;
 }
 .navbar .navbar-collapse {
     text-align: center;
@@ -64,7 +64,7 @@ html {
 }
 
 .itemz {
-    margin-top: 12%
+    margin-top: 15%
 }
 .jumbotron1 {
     background-color: #c1ccdd;
@@ -114,5 +114,5 @@ html {
 }
 
 .progress-bar-custom {
-    background: rgba(106, 122, 108, 1); 
+    background: rgba(106, 122, 108, 1);
     background: linear-gradient(to bottom, rgba(173, 173, 173, 1) 0%, rgba(106, 122, 108, 1) 100%);}
