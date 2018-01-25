@@ -24,13 +24,6 @@
         <!-- google font -->
         <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 
-       <!-- Unity3D -->
-        <link rel="stylesheet" href="TemplateData/style.css">
-        <script src="TemplateData/UnityProgress.js"></script>  
-        <script src="Build/UnityLoader.js"></script>
-        <script>
-         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Prison.json", {onProgress: UnityProgress});
-        </script>
     </head>
 
     <body id="scn1" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -157,13 +150,8 @@
                         <div class="page-header page-header2">
                             <h1>Projects</h1>
                         </div>
-                        <div class="webgl-content">
-                            <div id="gameContainer" style="width: 960px; height: 600px"></div>
-                            <div class="footer">
-                                <div class="webgl-logo"></div>
-                                <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-                                <div class="title">Prison</div>
-                            </div>
+                        <div>
+                            <a href="Game/index.html">Prison Game</a>
                         </div>
                     </div>
                 </div>
